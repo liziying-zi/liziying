@@ -5,7 +5,6 @@
 */
 import java.util.Scanner;
 public class Pyramid{
-     /*the name of */
 /**
 *Description:Pyramid to my friend
 *Param:      j,k,i,n
@@ -17,14 +16,16 @@ public class Pyramid{
 	    Scanner scan=new Scanner(System.in);
 	    System.out.println("Input n");
 	    int n=scan.nextInt();
-        for(int i=1;i<=n;i++){
+            for(int i=1;i<=n;i++){
 	    for(int j=1;j<=n-i;j++){
-	       System.out.print(" "); 
-	   }
+		//控制空格数量
+	        System.out.print(" "); 
+	    }
 	    for(k=1;k<=2*i-1;k++){
-	   System.out.print("$"); 
-	   }
+               //控制星号数量
+	       System.out.print("$"); 
+	    }
 	   System.out.println(); 
 	   }
-}
+     }
 }
