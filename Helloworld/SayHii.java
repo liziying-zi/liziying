@@ -1,4 +1,15 @@
+/**
+*Description:SayHii to my friend
+*Author:     liziying
+*Data:       2019-9-12
+*/
 public class SayHii{	
+/**
+*Description:SayHii to my friend
+*Param:      sum,i 
+*return:     sum
+*Date:      2019-9-12
+*/
 	public static void main(String[] args){		
 	       SayHii sayHii = new SayHii();		
 	       sayHii.sayHii(sayHii.sum());		
