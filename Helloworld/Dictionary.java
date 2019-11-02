@@ -1,6 +1,6 @@
 /**
- * @author Administrator
- * @Date 2019-10-27
+ * @author liziying
+ * @Date 2019-11-2
  * Dictionary
  */
 package com.google.book;
